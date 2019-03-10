@@ -1,46 +1,65 @@
 <!DOCTYPE html>
 <html lang="eu">
 <head>
+    <link href="styles/style.css" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <h1>Hexal</h1>
-        <nav>
-            <ul>
-                <li><a href="http://"></a>blog</li>
-                <li><a href="http://"></a>blog</li>
-                <li><a href="http://"></a>blog</li>
-                <li><a href="http://"></a>blog</li>
+    <header>  
+        <!-- <h1>Hexal</h1> -->
+        <nav class="navigation">
+            <ul class="item">
+                <li class="portfolio"><a href="http://"></a>PORTFOLIO</a></li>
+                <li class="about"><a href="http://"></a>ABOUT</a></li>
+                <li class="blog"><a href="http://"></a>BLOG</a></li>
+                <li class="get"><a href="http://"></a>GET IN TOUCH</a></li>
             </ul>
         </nav>
+        <div class="triangle_down"></div>
     </header>
-    <main>
-        <section>
-            <div>img</div>
+      <main>
+        <section class="hexagon-container">
+            <div class="row row-native-1">
+                <div class="hexagon" style="position: relative; top: 2px; left: 5px"><div class="hex-layer-1"><div class="hex-layer-2"></div></div></div>
+                <div class="hexagon" style="position: relative; top: 2px; left: 5px"><div class="hex-layer-1"><div class="hex-layer-2-1"></div></div></div>
+                <div class="hexagon" style="position: relative; top: 2px; left: 5px"><div class="hex-layer-1"><div class="hex-layer-2"></div></div></div>
+                <div class="hexagon" style="position: relative; top: 2px; left: 5px"><div class="hex-layer-1"><div class="hex-layer-2-1"></div></div></div>
+            </div>
+            <div class="row row-translate">
+                <div class="hexagon" style="position: relative; top: 2px; left: 5px"><div class="hex-layer-1"><div class="hex-layer-2"></div></div></div>
+                <div class="hexagon" style="position: relative; top: 2px; left: 5px"><div class="hex-layer-1"><div class="hex-layer-2-1"></div></div></div>
+                <div class="hexagon" style="position: relative; top: 2px; left: 5px"><div class="hex-layer-1"><div class="hex-layer-2"></div></div></div>
+                <div class="hexagon" style="position: relative; top: 2px; left: 5px"><div class="hex-layer-1"><div class="hex-layer-2-1"></div></div></div>
+                <div class="hexagon" style="position: relative; top: 2px; left: 5px"><div class="hex-layer-1"><div class="hex-layer-2"></div></div></div>
+            </div>
+            <div class="row row-native-2">
+                <div class="hexagon" style="position: relative; top: 2px; left: 5px"><div class="hex-layer-1"><div class="hex-layer-2"></div></div></div>
+                <div class="hexagon" style="position: relative; top: 2px; left: 5px"><div class="hex-layer-1"><div class="hex-layer-2-1"></div></div></div>
+                <div class="hexagon" style="position: relative; top: 2px; left: 5px"><div class="hex-layer-1"><div class="hex-layer-2"></div></div></div>
+                <div class="hexagon" style="position: relative; top: 2px; left: 5px"><div class="hex-layer-1"><div class="hex-layer-2-1"></div></div></div>
+            </div> 
         </section>
-        <section>
-            <article>
-                <img src="1" alt="person">
-                <h3></h3>
-                <p></p>
+        <section class="info">
+            <article class="article">
+                <h3>Smith Anderson</h3>
+                <p class="subtitle"><span>text</span><span>text</span><span>text</span></p>
                 <p></p>
             </article>
         </section>
     </main>
     <footer>
-        <form action="#" method="post">
+        <form action="#" class="in-touch-form">
             <fieldset>
                 <legend>Get in Touch</legend>
-                <input type="text" placeholder="Name" required>
+                <input class="input-text" type="text" placeholder="Name" required>
                 <input type="email" placeholder="email" required>
                 <input type="password" placeholder="password" required>
                 <textarea name="" id="" cols="30" rows="10"></textarea>
             </fieldset>
-            <button type="submit">send</button>
+            <button class="button-submit" type="submit">send</button>
         </form>
     </footer>
 </body>
